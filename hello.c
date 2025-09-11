@@ -56,17 +56,17 @@
 
 
 //  for(int i=1;i<n;i++)
-// //  {
-//     for(int j=n;j<=2*(n-i);j--);
+//  {
+//     for(int j=n;j<=2*(n-i);j--)
 //     {
 //         printf("*");
 
 //     }
-//     for(int j=n;j<=2*(n-i);j--);
+//     for(int j=n;j<=2*(n-i);j--)
 //     {
 //         printf(" ");
 //     }
-//     for (int j=n;j<=2*(n-i);j--);
+//     for (int j=n;j<=2*(n-i);j--)
 //     {
 //         printf("*");
 //     }
@@ -75,25 +75,56 @@
     
 // }
 
-#include<stdio.h>
-int main()
-{
+// #include<stdio.h>
+// int main(){
 
-         int n=5;
-         for(int i=1; i<=n; i++)
-       {
-          for(int j=1;j<=n;j++)
-          {
-            printf("*");
-            if(i==1 || i==n || j==1 || j==n)
-            {
-                printf("*");g
+
+//          int n=5;
+//          for(int i=1; i<=n; i++) {
+//             for(int j=1; j<=n; j++);
+          
+//           {
+//             printf("*");
+            
+//             if(i==1 || i==n || j==1 || j==n);
+//             {
+//                 printf("*");
         
-            }else{
-                printf(" ");
-        }
-    }
-    printf("\n");
- }
+//             }else{
+//                 printf(" ");
+        
+//             }
+//     printf("\n");
+//  }
                 
-}
+// }
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// {
+//     class myclas
+// }
+// {
+//     public:
+    
+//     void mymethod()
+// };
+// void myclass:: mymethod()
+// {
+//     cout<< "hello word";
+
+// }
+// int main(){
+//     myclass myobj;
+//     myobj.mymethod();
+
+
+//     return 0;
+
+// }
+
+    
