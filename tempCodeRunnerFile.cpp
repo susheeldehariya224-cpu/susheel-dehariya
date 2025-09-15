@@ -1,92 +1,41 @@
-
-   
-//    #include <iostream>
-   
-//    using namespace std;
-// int main(){
-//     void test :: show (int val)
-//     {
-//         cout<<"\n value is"<<val;
-
-//     }
-//     int main()
-//     {
-
-//         test t1,a2;
-//         t1.val=9;
-//         a2.val=10;
-//         t1.show(9);
-//         a2.show(10);
-//     }
-//     return 0;
-// }
-
-
-// #include <stdio.h>
-// int main(){
-    // for (int i=0;i<=4;i++)
-    // {
-    //     for (int j=0;j<=4;j++)
-    //     {
-    //         printf("*")
-    //     }
-    //     printf("\n")
-    // }
-// }
-
-
-//  #include<stdio.h>
- 
-
-// int sum(){
-//     int a=5;
-//     int b=10;
-//     int c=a+b;
-//     printf("%d",c);
-// }
-
-// int main(){
-//     sum();
-
-//     sum();
-//     sum();
-// }
-
-
-// {
-// int sum(a,b)
-
-// {
-
-//   printf('%d %d',a,b);
-
-//     }
-//     int main()
-//     {
-//         int a;
-//         int b;
-//         sum(a,b);
-//         scanf("%d %d" &a,&b);
-//
-
-
-
-    // }
-
-
- 
-
-
 #include <stdio.h>
-int sum(){
-int a=5;
-int b=10;
-int c=a+b;
-return c;
+int main()
+{
 
 
-}
-int main(){
-    int data= sum;
-    printf ("%d",data);
-}
+
+int t1=0;
+int t2=1;
+int next;
+for(int i=1;i<=n;i++){
+    printf ("%d\n",t1);
+    next=t1+t2;
+    t1=t2;
+    t2=next;
+
+
+for (int i=0;i<=10;i++){
+    if(i%2==0;)
+    {
+        break;
+            continue;
+    }
+
+
+
+// int a=2;
+//  int b=8;
+//  int main(){
+//     int n=234;
+//     if(n==0){
+//     int n=234;
+//     if(n==0){
+//         count=1;
+
+//     }
+//     {
+//         while(n>0;)
+//  }
+//  count++;
+//  n=n/10;
+ 

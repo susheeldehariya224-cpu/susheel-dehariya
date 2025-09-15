@@ -128,3 +128,17 @@
 // }
 
     
+
+
+
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a[5];
+    intn=0,i,5;
+    printf("enter 4 ints 5 \n");
+    for (i=0;i<4;)
+}
