@@ -73,13 +73,33 @@ int main()
 //     }
 // }
 
-int arr[5]={3,12,52,34,5};
-int target=3;
-for(inti=0;i<5;i++){
-    if(arr[i]==target){
-        printf("%d",arr[i]);
-        break;
+// int arr[5]={3,12,52,34,5};
+// int target=3;
+// for(inti=0;i<5;i++){
+//     if(arr[i]==target){
+//         printf("%d",arr[i]);
+//         break;
+//     }
+// }
+
+
+
+int arr[7]={1,3,4,6,-5,5,1};
+int k=7;
+for (int i=0;i<7;i++){
+    for (int j=0;j<7;j++){
+        if (arr[i]+arr[j]==k){
+            printf("%d %d",i,j);
+            break;
+        }
     }
 }
+
+
+
+
+
+
+
 
 }
