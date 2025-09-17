@@ -84,22 +84,124 @@ int main()
 
 
 
-int arr[7]={1,3,4,6,-5,5,1};
-int k=7;
-for (int i=0;i<7;i++){
-    for (int j=0;j<7;j++){
-        if (arr[i]+arr[j]==k){
-            printf("%d %d",i,j);
-            break;
-        }
+// int arr[7]={1,3,4,6,-5,5,1};
+// int k=7;
+// for (int i=0;i<7;i++){
+//     for (int j=0;j<7;j++){
+//         if (arr[i]+arr[j]==k){
+//             printf("%d %d",i,j);
+//             break;
+//         }
+//     }
+// }
+
+
+// int arr[5]={1,2,3,4,5};
+// int k=4;
+// for (int i=0;i<4;i++){
+//     for (int j=0;j<4;j++){
+//         if (arr[i]+arr[j]==k){
+//             printf("%d %d",i,j);
+//             break;
+//         }
+//     }
+// }
+
+
+// int arr[5]={1,2,3,2,1};
+// int i;
+// int j;
+// for (i=0;i<5;i++);
+// for (j=4;j>5;j--);
+
+// {
+//     if (arr[i]=arr[j])
+//     {
+//     printf("%d %d",arr[i],arr[j]);
+// }
+// }
+
+
+
+
+
+
+//  int arr[5]={1,2,3,2,1};
+
+//  int check=1;
+// for (int i=0;i<5/2;i++){
+
+// if(arr[i]!=arr[5-1-i]){
+//     check=0;
+    
+// }
+
+// }
+
+// if(check){
+//     printf("hai");
+// }else{
+//     printf("nahi hai");
+// }
+
+
+// int arr[5]={10,20,30,40,50};
+// int f=arr[0];
+// for (int i=0;i<5;i++){
+//     arr[i]=arr[i+1];
+
+// }
+// arr[4]=f;
+
+
+// int arr[5]={10,20,30,40,50};
+// int f=arr[0];
+// for (int i=0;i<5;i++){
+//     arr[i]=arr[i+1];
+
+// }
+// arr[4]=f;
+
+
+// int arr[5]={10,20,30,40,50};
+// int f=arr[0];
+// for (int i=0;i<5;i++){
+//     arr[i]=arr[i+1];
+
+// }
+// arr[4]=f;
+
+
+// int arr[5]={-10,20,30,-40,50};
+// int f=arr[0];
+// for (int i=0;i<5;i++){
+//     arr[i]=arr[i+1];
+
+// }
+// arr[4]=f;
+
+
+
+// int arr[5]={-10,20,30,-40,-50};
+// int f=arr[2];
+// for (int i=0;i<5;i++){
+//     arr[i]=arr[i+1];
+
+// }
+// arr[4]=f;
+
+
+int arr[5]={1,2,3,-2,1}
+int k=3;
+for (int i; i<5;i++){
+    arr[i]=arr[i+1];
+
+}if{
+    for(int j; j<5;j++){
+        arr[j]=arr[j+1];
+
     }
+arr [3]=k;
 }
-
-
-
-
-
-
-
 
 }
