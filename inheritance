@@ -1,0 +1,131 @@
+#include<iostream>
+using nmaespace std;
+clss Animal
+{
+    public:
+    void eat()
+    {
+        cout << "This animal eats food"<<endl;
+
+    }
+};
+
+
+
+class dog: public Mammal
+{
+    public:
+    voiid ()
+    {
+        cout<<"the dog bark"endl;
+
+    }
+};
+class dog:public Mammal{
+
+}
+
+
+
+class dog: public Mammal
+{
+    public:
+    voiid bark()
+    {
+        cout<<"the dog bark"endl;
+
+    }
+};
+// class dog:public Mammal{
+
+// }
+
+// int main()
+// {
+//     dog d;
+// }
+
+
+// class parent1
+// {
+//     public:
+//     void skin()
+//     {
+//         cout<<"skin colour is brown"endl;
+
+//     }
+// };
+
+// class parent2
+// {
+//     public:
+//     void eyes()
+//     {
+//         cout<<"skin colour is brown"endl;
+
+//     }
+// };
+
+// class child: public parent1,parent2
+// {
+//     public:
+//     void result()
+//     {
+//         cout<<" child colour is brown and eyes colour is also brown"<<endl;
+
+    
+//     }
+
+// };
+// int main()
+// {
+//     child d;
+//     d.eyes();
+//     d.skin ();
+//     d.result();
+//     return 0;
+
+
+// }
+
+// c
+
+
+// class Animal{
+//     public:
+//     void ear()
+//     {
+//         cout<<"Animal is eating "<<endl;
+
+//     }
+    
+// };
+//  class Bird
+//  {
+//     public :
+//     void Wngs()
+//     {
+//         cout<<"Bird is flying"<<endl;
+
+
+//     }
+//  };
+
+//  class Mammal:public Animal,public Bird
+//  {
+//     public :
+//     void mam ()
+//     {
+//         cout<< "this is bird"<<endl;
+
+//     }
+
+//  };
+//   int main()
+//   {
+//     mammal d;
+//     d.eat();
+//     d.wings();
+//     d.mam();
+//     return 0;
+//   }
