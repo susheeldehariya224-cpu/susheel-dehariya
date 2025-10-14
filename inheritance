@@ -1,70 +1,71 @@
 #include<iostream>
 using nmaespace std;
-clss Animal
 {
-    public:
-    void eat()
-    {
-        cout << "This animal eats food"<<endl;
+// clss Animal
+// {
+//     public:
+//     void eat()
+//     {
+//         cout << "This animal eats food"<<endl;
 
-    }
-};
-
-
-
-class dog: public Mammal
-{
-    public:
-    voiid ()
-    {
-        cout<<"the dog bark"endl;
-
-    }
-};
-class dog:public Mammal{
-
-}
+//     }
+// };
 
 
 
-class dog: public Mammal
-{
-    public:
-    voiid bark()
-    {
-        cout<<"the dog bark"endl;
+// class dog: public Mammal
+// {
+//     public:
+//     voiid ()
+//     {
+//         cout<<"the dog bark"endl;
 
-    }
-};
+//     }
+// };
 // class dog:public Mammal{
 
 // }
 
-// int main()
-// {
-//     dog d;
-// }
 
 
-// class parent1
+// class dog: public Mammal
 // {
 //     public:
-//     void skin()
+//     voiid bark()
 //     {
-//         cout<<"skin colour is brown"endl;
+//         cout<<"the dog bark"endl;
 
 //     }
 // };
+// // class dog:public Mammal{
 
-// class parent2
-// {
-//     public:
-//     void eyes()
-//     {
-//         cout<<"skin colour is brown"endl;
+// // }
 
-//     }
-// };
+// // int main()
+// // {
+// //     dog d;
+// // }
+
+
+// // class parent1
+// // {
+// //     public:
+// //     void skin()
+// //     {
+// //         cout<<"skin colour is brown"endl;
+
+// //     }
+// // };
+
+// // class parent2
+// // {
+// //     public:
+// //     void eyes()
+// //     {
+// //         cout<<"skin colour is brown"endl;
+
+// //     }
+// // };
 
 // class child: public parent1,parent2
 // {
@@ -124,8 +125,8 @@ class dog: public Mammal
 //   int main()
 //   {
 //     mammal d;
-//     d.eat();
-//     d.wings();
-//     d.mam();
-//     return 0;
-//   }
+//     
+}
+
+
+
